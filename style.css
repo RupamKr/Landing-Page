@@ -1,0 +1,192 @@
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+}
+header {
+  color: #FFFFFF;
+  background-color: #284b63;
+  padding: 10rem 0;
+  text-align: center;
+}
+section {
+  padding: 4rem 0;
+  text-align: center;
+}
+.features{
+  background: #FFFFFF;
+  color: #000000;
+  
+}
+.feature{
+  width: 32%;
+  display: inline-block;
+  font-size: 1.6rem;
+  
+}
+.feature img{
+    width: 40%;
+}
+.quote {
+  background:#549DA0;
+  color:#FFFFFF;
+}
+
+h1{
+    font-size: 4.8rem;
+    margin: 0 0 1.6rem 0;
+}
+h2{
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin: 0 0 1.6rem 0;
+}
+.container{
+   
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 90rem;
+}
+.btn {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    background: #549DA0;
+    border: none;
+    border-radius: 5px;
+    padding: 1.2rem 1.6rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #468446;
+}
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+blockquote p{
+    margin: 0 0 0.5rem 0;
+    font-size: 2.4rem;
+}
+blockquote cite{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+blockquote cite:before{
+    content: '-';
+    margin-right: 0.5rem;
+}
+footer {
+    background: #353535;
+    padding: 3.2rem 0;
+    text-align: center;
+    color: #868686;
+    font-size: 1.2rem;
+  } 
+  footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+footer li{
+    display: inline-block;
+}
+footer li a{
+    text-decoration: none;
+    padding: 0.6rem;
+    color: #c3c3ce;
+    font-size: 1.4rem;
+}
+footer li a:hover{
+    color: white;
+}
+
+.submenu {
+
+    left: 50%;
+    transform: translate( -50%, 0);
+    text-align:center;
+    position: absolute;
+    background-color: #549DA0;
+    min-width: 16rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0.8rem 1.6rem 0px rgba(0,0,0,0.2);
+    display: none;
+    
+    }
+    
+    .submenu a {
+    
+    color: white;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    
+    }
+    
+    .submenu a:hover {
+    
+    background-color: #468486;
+    
+    }
+
+@media  screen and (max-width: 480px) {
+        .btn{
+            display: block;
+            font-size: 1.8rem;
+        }
+        h1{
+            font-size: 3.2rem
+            margin: 0 0.8rem;
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+        section{
+            padding: 2.5rem 0 1.5rem 0;
+        }
+        .feature{
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+            
+          }
+          .feature img{
+              width: 15%;
+              min-width: 6rem;
+              margin-right: 2rem;
+          }
+          .quote{
+            padding: 3rem 0;
+          }
+          blockquote p{
+            font-size: 1.8rem;
+        }
+        blockquote cite{
+            font-size: 1.4rem;
+        }
+        footer{
+            padding: 3rem 0 1rem 0;
+        }
+        footer li{
+            display: block;
+            margin: 0.5rem 0;
+        }
+        .submenu {
+            width: 100%;
+            position:relative;
+        }
+    
+    }
